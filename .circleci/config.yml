@@ -17,11 +17,11 @@ jobs:
       # Use mvn clean and package as the standard maven build phase
       - run:
           name: Build
-          command: mvn install assembly:single
+          command: mvn install
       # Then run your tests!
       - run:
           name: Test
-          command: java -cp "target/spring-cucumber-jar-practise-1.0-SNAPSHOT-test-jar-with-dependencies.jar:target/spring-cucumber-jar-practise-1.0-SNAPSHOT-tests.jar" io.cucumber.core.cli.Main classpath:features --glue com.practise.automation
+          command: java -cp "target/dependency/*" io.cucumber.core.cli.Main classpath:features --glue com.practise.automation
 
 workflows:
   # Below is the definition of your workflow.
