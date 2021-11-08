@@ -1,4 +1,3 @@
-/*
 package com.practise.automation;
 
 import io.cucumber.spring.CucumberContextConfiguration;
@@ -10,4 +9,3 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan({"com.practise.automation"})
 public class CucumberSpringBootTestConfiguration {
 }
-*/

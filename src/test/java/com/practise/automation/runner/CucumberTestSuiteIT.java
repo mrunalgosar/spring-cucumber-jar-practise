@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = "classpath:features",
-        glue = "com.practise.automation"
+        glue = {"com.practise.automation"}
 )
 public class CucumberTestSuiteIT extends AbstractTestNGCucumberTests {
 
