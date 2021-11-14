@@ -2,7 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/mrunalgosar/spring-cucumber-jar-practise.svg?style=svg)](https://app.circleci.com/pipelines/github/mrunalgosar/spring-cucumber-jar-practise)
 
-[!GithubActionsCI](https://github.com/mrunalgosar/spring-cucumber-jar-practise/actions/workflows/maven.yml/badge.svg)
+![example workflow](https://github.com/mrunalgosar/spring-cucumber-jar-practise/actions/workflows/maven.yml/badge.svg)
+
 # Run Cucumber tests from Jar via command line.
 
 ```mvn install```
